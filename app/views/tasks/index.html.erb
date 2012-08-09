@@ -1,0 +1,18 @@
+<h1>Tasks</h1>
+
+<!-- This is a partial that we pull in from _form.html.erb -->
+<%= render 'form'%>
+	
+
+<ul>
+	<!-- The percents indicate ruby script. Also, since this is a task view, we have access to the Task variables. -->
+	<% for task in @tasks %>
+		<li id="task_<%= task.id %>">
+			<!-- The equal sign indicates that the the Html elements will get what is returned.  -->
+			<%= task.task %>
+			<!-- Creates link as 'Edit' that re-routes based on the action -->
+			||<%= link_to 'Edit',  edit_task_path(task), :id =>"Edit" %>
+			<%= link_to 'Delete',  task, :method =>"delete" %>
+		</li>
+	<% end %>
+</ul>

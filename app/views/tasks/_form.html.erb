@@ -1,0 +1,13 @@
+<!-- This is a partial. We use this as re-usable front end code. -->
+
+<!-- Here, we create a form with Ruby. The f block variable is the form that we manipulate. 
+We pass in a new Task that can be accessed in the block. The form_for connects the action of the form with /tasks (tasks_path)-->
+<!-- we replaced Task.new with @task which is set-up in index and essentially makes sure that a form set through edit is different. -->
+<%= form_for @task do |f| %>
+	<!--Label the form with :task, which is taken from the task column in the row we are working with  -->
+	<%= f.label :task %>
+	<!-- Sets the text_field to the task column.  -->
+	<%= f.text_field :task %>
+	<!--  -->
+	<%= f.submit %>
+<%end%>
