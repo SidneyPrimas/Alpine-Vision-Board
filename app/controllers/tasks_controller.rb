@@ -22,6 +22,8 @@ class TasksController < ApplicationController
     
     #The post redirects to the /task page. Here we force the browser to go back to the main veiw page. 
     redirect_to :back
+    
+    
   end
   
   # Routeing after edit button clicked
