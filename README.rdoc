@@ -1,18 +1,1 @@
-Important
--The goal of this tutorial was to both set-up the basics of rails and to demonstrate testing through rspec. 
--Although the life version is completely functional, the testing doesn't work. For some reason, they cannot find the "Edit" elemnts although the id and text of those elements is set. Be careful
-
-Overview: 
--We experiment with veiw, model and controller. 
---The model is automatically created with only one column (:task).
---The controller and veiws are created and information is passed back and forth (as well as stored in the database through the model)
--The Test is done through rspec. Note, we create the testing with rails g integration_test tasks
---The main testing file is tasks_spec. Note, this doesn't work. 
-
-
-Action:
--To run this, go to the terminal, run: rails server. Then, go to the localhost:3000 to see the implementation. 
--You might have to instantiate the database and then migrate it with rake db:migrate
--Call guard on the command line to test. Note: The above issues arise with the "Edit" elements
-
-Link: http://net.tutsplus.com/tutorials/ruby/the-intro-to-rails-screencast-i-wish-i-had/
+Ruby on rails app with rspec. Worked on this for practice. 
