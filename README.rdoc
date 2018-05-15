@@ -1,4 +1,4 @@
-# Alpine
+Alpine
 
 Description:
 Virtual vision board to help peoplestay accountable to their goals through support from friends.
