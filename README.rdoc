@@ -1,1 +1,4 @@
-Ruby on rails app with rspec. Worked on this for practice. 
+# Alpine
+
+Description:
+Virtual vision board to help peoplestay accountable to their goals through support from friends.
