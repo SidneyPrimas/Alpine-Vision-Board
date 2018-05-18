@@ -6,5 +6,5 @@ To build the system, I used Ruby with Sinatra on the backend, integrated with Fa
 
 Date: Fall 2012  
 
-Below Figure: Snapshot of the website while it was live. The blue drop is a goal 'to build SidneyPrimas.com'. I added two advisors to help me stay accountable.
+Below Figure: Snapshot of the website while it was live. At the top, you can see that I have completed 3 goals, with 2 still in progress. The blue drop down is a goal to 'build a draft of SidneyPrimas.com'. I added two advisors to help me stay accountable.
 ![alt test](https://github.com/SidneyPrimas/Alpine-Vision-Board/blob/master/alpine_main.png)
